@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.special{
+    background-color: white;
+}
+
+.navbar-h{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container-h{
+    max-width: 1695px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.top-bar{
+    width: 80%;
+    height: 4rem;
+    background-color: #eee;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-solid{
+    color: red;
+    margin-right: 10px;
+}
+
+.header{
+    width: 90%;
+    height: 94px;
+    background-color: red;
+    margin-bottom: 16px;
+    margin-left: 5%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-b p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.navbar-b ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-b ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+.navbar-b ul li a:hover{
+    background-color: white;
+    color: red;
+    border-radius: 15px;
+}
+
+.navbar-b ul li a:focus{
+    background-color: white;
+    /* color: red;
+    border-radius: 15px; */
+}
+.navbar-b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -1%;
+}
+
+.dropdown{
+    /* width: 190px;
+    text-align: center;
+    border-radius: 3px; */
+    /* background-color: rgb(136, 66, 66); */
+    border-radius: 15px;
+}
+
+.sidebar-nav{
+    gap: 10px;
+}
+
+.shop-category-list ul li {
+    margin-bottom: 1px;
+}
+select{
+    outline: none;
+    border: none;
+    background: none;
+    padding: 7px 10px 7px 0px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+select:hover{
+    color: #333;
+}
+
+.search{
+    width: 500px;
+    background-color: white;
+    height: 45px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.search input{
+    width: 440px;
+    border: none;
+    outline: none;
+    height: 40px;
+}
+
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 60px;
+    font-size: 18px;
+}
+
+.cart p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+/* .root{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+} */
+.pd-container{
+    /* width: 137.5%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.sidebar{
+    width: 60%;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-left: 280px;
+    padding: 20px;
+    text-align: center;
+}
+
+.shop-category-list .li{
+    border-radius: 5%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.img-box{
+    width: 50%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width: 50%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 60px;
+}
+
+img{
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: #333;
+}
+
+#categories{
+    color: red;
+}
+
+.shop{
+    display: grid root;
+}
+
+.footer{
+    margin-top: 8px;
+}
+.footer hr{
+    
+        border: none;
+        background: #b5b5b5;
+        height: 1px;
+        margin: 20px 0;
+    
+}
+
+
+
+
+
+/* =========================== drop down================================== */
